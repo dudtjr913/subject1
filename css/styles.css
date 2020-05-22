@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&display=swap");
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 400px;
+  height: 370px;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 0px 20px;
+}
+
+.section .section__image {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.section .image {
+  width: 300px;
+}
+
+.section .section__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section .section__content {
+  opacity: 0.5;
+}
+
+.section .section__title,
+.section .section__content {
+  padding-bottom: 10px;
+}
+
+.section .section__inf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section .section__inf-left {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section .section__inf .section__inf-right .icon {
+  color: #febd51;
+}
+.section .section__inf .section__inf-right .icon .fa-star:nth-child(5) {
+  color: gray;
+  opacity: 0.5;
+}
+
+.section .section__inf .section__inf-right .number {
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.section-bg {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.profile-g {
+  position: absolute;
+  border-radius: 50px;
+  width: 80px;
+  left: 155px;
+  top: 140px;
+  border: 5px solid white;
+}
+
+.section-bg .top {
+  height: 50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url(../bg.jpg);
+  background-size: cover;
+}
+
+.section-bg .bottom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section-bg .bottom .bottom__friend-name {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section-bg .bottom .bottom__friend-status {
+  padding-bottom: 35px;
+  opacity: 0.5;
+}
+
+.section-bg .bottom .bottom__block .bottom__follow,
+.section-bg .bottom .bottom__block .bottom__message {
+  padding: 15px 50px;
+  border-radius: 7px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.section-bg .bottom .bottom__block .bottom__follow {
+  color: white;
+  background-color: #6b75ff;
+}
+.section-bg .bottom .bottom__block .bottom__message {
+  color: #6b75ff;
+  background-color: #eaecff;
+}
